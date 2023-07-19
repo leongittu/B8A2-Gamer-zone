@@ -367,4 +367,46 @@ footer{
         list-style: none;
         padding: 20px;
     }
-        
+        /* mobile*/
+        @media screen and (max-width:576px){
+            .nav-container ,nav ul {
+                padding: 10px;
+                flex-direction: column;
+                height: 300px;
+        }    
+        .play-section {
+            flex-direction: column;
+            margin: 10px;
+            background-size: 100%;
+    } 
+    .play-content{
+        margin-left: 10px;
+        gap: 0px;
+        width: 100%;
+    }
+    .play-img{
+        width: 100%;
+    }
+    .videos{
+        margin: 10px;
+    }
+    .videos-container{
+        grid-template-columns: 1fr;
+    }
+    .play-games{
+        padding: 10px;
+    }
+    .games-container{
+        flex-direction: column;
+    }
+    .games-content{
+        margin-left: 10px;
+    }
+    .category{
+        margin-top: 50px;
+        margin: 20px;
+    }
+    .category-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
